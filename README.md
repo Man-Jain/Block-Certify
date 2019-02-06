@@ -1,12 +1,8 @@
-# Polling Application
+# Block Certify
 
-![Generic badge](https://img.shields.io/badge/build-success-green.svg?longCache=true&style=flat-square)
-
-This is a simple Polling Application in which a user can create polls and vote. 
+A Blockchain Based certificate issuing platform made by the Solidity Language for writing Smart Contracts and Python as the Web Backend
 
 ## Features of Application :- 
 
-1. Create user.
-2. Login User
-3. Create a Poll
-4. Vote to Current Polls 
+1. Issue a Certficate by the User Address
+2. Verify the certificate and check for frauds.
