@@ -1,11 +1,11 @@
-pragma solidity ^0.4.21;
+pragma solidity ^0.5.0;
 
 contract Certificate {
 
     struct user_data {
-        string[10] certificates;
+        string[100] certificates;
         uint certificate_count;
-        address[10] sender;
+        address[100] sender;
     }
     
     
