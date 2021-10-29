@@ -18,7 +18,13 @@ module.exports = {
 			host:"localhost",
 			port:8545,
 			network_id : '*'
-		}
+		},
+		goerli: {
+		      provider: function() {
+			return new HDWalletProvider(data, "https://goerli.infura.io/v3/53e706eaa088405491d1e311f6a6938b")
+		      },
+		      network_id: 5
+   		},
 	}
   // See <http://truffleframework.com/docs/advanced/configuration>
   // to customize your Truffle configuration!
